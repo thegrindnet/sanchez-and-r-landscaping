@@ -27,7 +27,7 @@ function Hero() {
           </a>
         </div>
         <p className="hero__note">
-          Front yards · Backyards · Low-maintenance landscapes
+          Front yards · Back yards · Low-maintenance landscapes
         </p>
       </div>
       <div
