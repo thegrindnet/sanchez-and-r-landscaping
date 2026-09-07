@@ -1,2 +1,42 @@
-import {useState} from "react";import "./Faq.css";import {faqs} from "../../utils/constants.js";
-function Faq(){const[active,setActive]=useState(0);return <section className="faq section" id="faq"><div className="section__inner faq__layout"><div><p className="eyebrow">05 / Questions</p><h2 className="display-title">Common questions, clear answers.</h2></div><div className="faq__list">{faqs.map((item,index)=>{const open=index===active;return <article key={item.q}><h3><button aria-expanded={open} aria-controls={`faq-${index}`} onClick={()=>setActive(open?-1:index)}><span>{item.q}</span><b aria-hidden="true">{open?"−":"+"}</b></button></h3><div className={`faq__answer ${open?"faq__answer--open":""}`} id={`faq-${index}`}><p>{item.a}</p></div></article>})}</div></div></section>}export default Faq;
+import { useState } from "react";
+import "./Faq.css";
+import { faqs } from "../../utils/constants.js";
+function Faq() {
+  const [active, setActive] = useState(0);
+  return (
+    <section className="faq section" id="faq">
+      <div className="section__inner faq__layout">
+        <div>
+          <p className="eyebrow">Questions</p>
+          <h2 className="display-title">Common questions, clear answers.</h2>
+        </div>
+        <div className="faq__list">
+          {faqs.map((item, index) => {
+            const open = index === active;
+            return (
+              <article key={item.q}>
+                <h3>
+                  <button
+                    aria-expanded={open}
+                    aria-controls={`faq-${index}`}
+                    onClick={() => setActive(open ? -1 : index)}
+                  >
+                    <span>{item.q}</span>
+                    <b aria-hidden="true">{open ? "−" : "+"}</b>
+                  </button>
+                </h3>
+                <div
+                  className={`faq__answer ${open ? "faq__answer--open" : ""}`}
+                  id={`faq-${index}`}
+                >
+                  <p>{item.a}</p>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}
+export default Faq;

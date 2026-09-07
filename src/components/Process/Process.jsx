@@ -1,2 +1,26 @@
-import "./Process.css";import {processSteps,business} from "../../utils/constants.js";
-function Process(){return <section className="process section"><div className="section__inner"><p className="eyebrow">Easy scheduling</p><div className="process__heading"><h2 className="display-title">A simpler way to improve your yard.</h2><a href={business.phoneHref}>Fastest option: call {business.phoneDisplay} →</a></div><ol>{processSteps.map(step=><li key={step.number}><span>{step.number}</span><h3>{step.title}</h3><p>{step.copy}</p></li>)}</ol></div></section>}export default Process;
+import "./Process.css";
+import { processSteps, business } from "../../utils/constants.js";
+function Process() {
+  return (
+    <section className="process section">
+      <div className="section__inner">
+        <p className="eyebrow">Easy scheduling</p>
+        <div className="process__heading">
+          <h2 className="display-title">A simpler way to improve your yard.</h2>
+          <a className="button button--yellow" href={business.phoneHref}>
+            Call Us: (915) 270-1257
+          </a>
+        </div>
+        <ol>
+          {processSteps.map((step) => (
+            <li key={step.number}>
+              <h3>{step.title}</h3>
+              <p>{step.copy}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  );
+}
+export default Process;
