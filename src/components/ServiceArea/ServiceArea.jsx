@@ -15,14 +15,12 @@ function ServiceArea() {
         <p className="eyebrow">Where we work</p>
         <h2>Landscaping across the borderland.</h2>
         <p>
-          Serving homes and properties throughout the El Paso, Chaparral, and
-          Las Cruces region. Call with your location and we’ll confirm service
-          availability.
+          Serving homes and properties throughout the El Paso, TX and Chaparral,
+          NM. Call with your location and we’ll confirm service availability.
         </p>
         <div className="area__places">
           <span>El Paso</span>
           <span>Chaparral</span>
-          <span>Las Cruces Region</span>
         </div>
         <a className="button button--yellow" href={business.phoneHref}>
           Check your service area

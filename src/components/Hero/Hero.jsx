@@ -16,7 +16,7 @@ function Hero() {
         <h1>Turn your yard into the best part of home.</h1>
         <p className="hero__intro">
           Complete landscaping, turf, hardscape, and lawn care for properties
-          across the El Paso, Chaparral, and Las Cruces region.
+          across the El Paso and Chaparral.
         </p>
         <div className="hero__actions">
           <a className="button button--yellow" href={business.phoneHref}>

@@ -8,7 +8,7 @@ export const business = {
   addressLine1: "Address to be provided",
   addressLine2: "Chaparral, NM 88081",
   mapUrl: "https://www.google.com/maps/search/?api=1&query=Chaparral+NM+88081",
-  serviceArea: "El Paso, Chaparral & Las Cruces Region",
+  serviceArea: "El Paso and Chaparral",
   hours: [{ days: "Monday – Friday", time: "8:00 AM – 5:00 PM" }],
   instagramUrl: "https://www.instagram.com/srlandscaping_ep/",
 };
@@ -143,7 +143,7 @@ export const reasons = [
   },
   {
     title: "Regional Service",
-    copy: "Serving homeowners across El Paso, Chaparral, and the Las Cruces region.",
+    copy: "Serving homeowners across El Paso, TX and Chaparral, NM.",
   },
 ];
 export const processSteps = [
