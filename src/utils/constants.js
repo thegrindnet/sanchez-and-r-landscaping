@@ -166,7 +166,7 @@ export const processSteps = [
 export const faqs = [
   {
     q: "What landscaping services do you offer?",
-    a: "We offer complete lawn maintenance, grass cutting, yard cleaning, tree trimming, gravel, sod, flagstone, artificial turf, concrete, stamped concrete, sprinkler repair, rock wall refilling, and complete landscape design.",
+    a: "We offer gravel, sod, flagstone, artificial turf, concrete, stamped concrete, sprinkler repair, rock wall refilling, and complete landscape design.",
   },
   {
     q: "Do you provide free estimates?",
