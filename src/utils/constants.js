@@ -25,13 +25,7 @@ export const serviceGroups = [
     title: "Lawn & Yard Care",
     description:
       "Dependable upkeep that keeps your property clean, healthy, and ready to enjoy.",
-    items: [
-      "Complete lawn maintenance",
-      "Grass cutting",
-      "Tree trimming",
-      "Yard cleaning",
-      "Sprinkler repair",
-    ],
+    items: ["Sprinkler installation", "Sprinkler repair"],
   },
   {
     number: "02",
