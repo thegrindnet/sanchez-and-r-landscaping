@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/sanchez-and-r-landscaping",
+  base: "/sanchez-and-r-landscaping/",
   server: { port: 3000 },
 });
