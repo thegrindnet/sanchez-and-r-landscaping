@@ -3,8 +3,8 @@ export const business = {
   tagline: "Built for the Outdoors. Made for Your Life.",
   phoneDisplay: "(915) 270-1257",
   phoneHref: "tel:+19152701257",
-  email: "snrLandscaping@gmail.com",
-  emailHref: "mailto:snrLandscaping@gmail.com",
+  email: "hs1984101@gmail.com",
+  emailHref: "mailto:hs1984101@gmail.com",
   addressLine1: "Address to be provided",
   addressLine2: "Chaparral, NM 88081",
   mapUrl: "https://www.google.com/maps/search/?api=1&query=Chaparral+NM+88081",
@@ -173,7 +173,7 @@ export const faqs = [
     a: "Yes. We provide free estimates so you can understand the scope and cost of your project before making a decision.",
   },
   {
-    q: "Do you work on both front and backyards?",
+    q: "Do you work on both front and back yards?",
     a: "Yes. We can design, improve, and maintain both front and backyards, whether you need a small update or a complete landscaping transformation.",
   },
   {

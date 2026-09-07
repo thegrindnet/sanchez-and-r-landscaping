@@ -1,2 +1,63 @@
-import "./Contact.css";import qrCode from "../../assets/images/contact-qr-code.png";import {business} from "../../utils/constants.js";
-function Contact(){return <section className="contact section" id="contact"><div className="section__inner contact__panel"><div className="contact__lead"><p className="eyebrow">Ready when you are</p><h2>Let’s create a yard you’ll enjoy.</h2><p>Call Sanchez and R Landscaping for a free estimate on maintenance, turf, concrete, hardscape, or a complete outdoor design.</p><a className="button button--yellow" href={business.phoneHref}>Call {business.phoneDisplay}</a></div><div className="contact__details"><div><span>Phone</span><a href={business.phoneHref}>{business.phoneDisplay}</a></div><div><span>Email</span><a href={business.emailHref}>{business.email}</a><small>Placeholder — confirm before launch</small></div><div><span>Location</span><a href={business.mapUrl} target="_blank" rel="noreferrer">{business.addressLine1}<br/>{business.addressLine2}</a><small>Street address needed</small></div><div><span>Hours</span><p>Monday – Friday<br/>8:00 AM – 5:00 PM</p></div></div><a className="contact__qr" href={business.instagramUrl} target="_blank" rel="noreferrer"><img src={qrCode} alt="QR code linking to Sanchez and R Landscaping contact information"/><span>Scan to connect</span></a></div></section>}export default Contact;
+import "./Contact.css";
+import qrCode from "../../assets/images/contact-qr-code.png";
+import { business } from "../../utils/constants.js";
+function Contact() {
+  return (
+    <section className="contact section" id="contact">
+      <div className="section__inner contact__panel">
+        <div className="contact__lead">
+          <p className="eyebrow">Ready when you are</p>
+          <h2>Let’s create a yard you’ll enjoy.</h2>
+          <p>
+            Call Sanchez and R Landscaping for a free estimate on maintenance,
+            turf, concrete, hardscape, or a complete outdoor design.
+          </p>
+          <a className="button button--yellow" href={business.phoneHref}>
+            Call {business.phoneDisplay}
+          </a>
+        </div>
+        <div className="contact__details">
+          <div>
+            <span>Phone</span>
+            <a href={business.phoneHref}>{business.phoneDisplay}</a>
+          </div>
+          <div>
+            <span>Email</span>
+            <a href={business.emailHref}>{business.email}</a>
+            <small>Placeholder — confirm before launch</small>
+          </div>
+          <div>
+            <span>Location</span>
+            <a href={business.mapUrl} target="_blank" rel="noreferrer">
+              {business.addressLine1}
+              <br />
+              {business.addressLine2}
+            </a>
+            <small>Street address needed</small>
+          </div>
+          <div>
+            <span>Hours</span>
+            <p>
+              Monday – Friday
+              <br />
+              8:00 AM – 5:00 PM
+            </p>
+          </div>
+        </div>
+        <a
+          className="contact__qr"
+          href={business.instagramUrl}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={qrCode}
+            alt="QR code linking to Sanchez and R Landscaping contact information"
+          />
+          <span>Scan to connect</span>
+        </a>
+      </div>
+    </section>
+  );
+}
+export default Contact;
