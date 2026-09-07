@@ -129,7 +129,7 @@ export const galleryItems = [
       "../assets/images/Screenshot_20260904-124758_Messenger.webp",
       import.meta.url
     ).href,
-    title: "Backyard Lawn",
+    title: "Frontyard Lawn",
     category: "Artificial Turf",
     alt: "Large completed backyard artificial lawn beside a mature tree",
   },
