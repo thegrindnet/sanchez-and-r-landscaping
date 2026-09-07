@@ -12,7 +12,7 @@ function WhyChooseUs() {
             Straightforward service.
           </h2>
           <div className="why__list">
-            {reasons.map((reason, index) => (
+            {reasons.map((reason) => (
               <article key={reason.title}>
                 <div>
                   <h3>{reason.title}</h3>
