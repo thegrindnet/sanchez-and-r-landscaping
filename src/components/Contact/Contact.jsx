@@ -1,5 +1,5 @@
 import "./Contact.css";
-import qrCode from "../../assets/images/contact-qr-code.png";
+import qrCode from "../../assets/images/instagram-qr.png";
 import { business } from "../../utils/constants.js";
 function Contact() {
   return (
@@ -24,7 +24,6 @@ function Contact() {
           <div>
             <span>Email</span>
             <a href={business.emailHref}>{business.email}</a>
-            <small>Placeholder — confirm before launch</small>
           </div>
           <div>
             <span>Location</span>
