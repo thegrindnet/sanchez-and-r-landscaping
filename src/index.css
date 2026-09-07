@@ -1,1 +1,126 @@
-:root{font-family:Inter,Arial,sans-serif;color:#173124;background:#fff;line-height:1.6;font-synthesis:none;--green:#0b6737;--green-dark:#052b19;--lime:#80cc19;--yellow:#ffd21a;--cream:#f4f7ed;--ink:#122d1f;--muted:#586b60;--line:#d9e4db;--white:#fff;scroll-behavior:smooth}body{min-width:320px;overflow-x:hidden;background:var(--green-dark)}body.nav-open{overflow:hidden}button,a{font:inherit}a{color:inherit}.section{position:relative;padding:clamp(4.5rem,8vw,7.5rem) clamp(1rem,4vw,2.5rem)}.section__inner{width:min(1240px,100%);margin:0 auto}.eyebrow{display:flex;align-items:center;gap:.65rem;margin-bottom:1rem;color:var(--green);font-size:.78rem;font-weight:900;letter-spacing:.18em;text-transform:uppercase}.eyebrow::before{content:"";width:2.5rem;height:4px;background:linear-gradient(90deg,var(--yellow),var(--lime))}.display-title{max-width:800px;font-family:Georgia,serif;font-size:clamp(2.35rem,5vw,4.7rem);line-height:1;letter-spacing:-.05em;color:var(--green-dark)}.button{display:inline-flex;align-items:center;justify-content:center;min-height:3.35rem;padding:.8rem 1.45rem;border:2px solid transparent;text-decoration:none;font-weight:850;letter-spacing:.01em;transition:transform .2s,background .2s,color .2s,box-shadow .2s}.button:hover{transform:translateY(-3px);box-shadow:0 12px 24px rgba(4,39,21,.17)}.button:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid #ff8b00;outline-offset:3px}.button--yellow{background:linear-gradient(105deg,var(--yellow),#ffe158);color:#15321f}.button--yellow:hover{background:#ffe86e}.button--outline{border-color:currentColor;color:var(--green);background:transparent}.button--outline:hover{background:var(--green);color:#fff}.placeholder-note{font-size:.76rem;color:#718078}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:600px){.section{padding:4rem 1rem}.button{width:100%}}
+:root {
+  font-family: Inter, Arial, sans-serif;
+  color: #173124;
+  background: #fff;
+  line-height: 1.6;
+  font-synthesis: none;
+  --green: #0b6737;
+  --green-dark: #052b19;
+  --lime: #80cc19;
+  --yellow: #ffd21a;
+  --cream: #f4f7ed;
+  --ink: #122d1f;
+  --muted: #586b60;
+  --line: #d9e4db;
+  --white: #fff;
+  scroll-behavior: smooth;
+}
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  background: var(--green-dark);
+}
+body.nav-open {
+  overflow: hidden;
+}
+button,
+a {
+  font: inherit;
+}
+a {
+  color: inherit;
+}
+.section {
+  position: relative;
+  padding: clamp(4.5rem, 8vw, 7.5rem) clamp(1rem, 4vw, 2.5rem);
+}
+.section__inner {
+  width: min(1240px, 100%);
+  margin: 0 auto;
+}
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 1rem;
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.eyebrow::before {
+  content: "";
+  width: 2.5rem;
+  height: 4px;
+  background: linear-gradient(90deg, var(--yellow), var(--lime));
+}
+.display-title {
+  max-width: 800px;
+  font-family: Georgia, serif;
+  font-size: clamp(2.35rem, 5vw, 4.7rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: var(--green-dark);
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.35rem;
+  padding: 0.8rem 1.45rem;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 850;
+  letter-spacing: 0.01em;
+  transition: transform 0.2s, background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(4, 39, 21, 0.17);
+}
+.button:focus-visible,
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #ff8b00;
+  outline-offset: 3px;
+}
+.button--yellow {
+  background: linear-gradient(105deg, var(--yellow), #ffe158);
+  color: #15321f;
+}
+.button--yellow:hover {
+  background: #ffe86e;
+}
+.button--outline {
+  border-color: currentColor;
+  color: var(--green);
+  background: transparent;
+}
+.button--outline:hover {
+  background: var(--green);
+  color: #fff;
+}
+.placeholder-note {
+  font-size: 0.76rem;
+  color: #718078;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+@media (max-width: 600px) {
+  .section {
+    padding: 4rem 1rem;
+  }
+  .button {
+    width: 100%;
+  }
+}

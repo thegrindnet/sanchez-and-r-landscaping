@@ -8,7 +8,7 @@ function Process() {
         <div className="process__heading">
           <h2 className="display-title">A simpler way to improve your yard.</h2>
           <a className="button button--yellow" href={business.phoneHref}>
-            Call Us: (915) 270-1257
+            Call for a Free Estimate
           </a>
         </div>
         <ol>
