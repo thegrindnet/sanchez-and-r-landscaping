@@ -32,7 +32,6 @@ function Contact() {
               <br />
               {business.addressLine2}
             </a>
-            <small>Street address needed</small>
           </div>
           <div>
             <span>Hours</span>
