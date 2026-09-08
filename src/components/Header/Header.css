@@ -56,6 +56,10 @@
   font-size: 0.84rem;
   box-shadow: 0 10px 24px rgba(247, 212, 36, 0.28);
 }
+.header__utility-social {
+  display: none;
+}
+
 @media (max-width: 1040px) {
   .header__brand {
     width: 230px;
@@ -65,11 +69,17 @@
   }
 }
 @media (max-width: 900px) {
-  .header__utility {
+  .header__utility-social {
+    display: inline-block;
+  }
+  .header__utility-inner > span,
+  .header__utility-inner div span {
     display: none;
   }
+
   .header__utility-inner {
     justify-content: center;
+    font-size: 16px;
   }
   .header__main {
     height: 6rem;

@@ -10,6 +10,9 @@ function Header() {
           <span>Serving {business.serviceArea}</span>
           <div>
             <span>Mon–Fri 8AM–5PM</span>
+            <a className="header__utility-social" href={business.instagramUrl}>
+              View Our Instagram
+            </a>
             <a href={business.phoneHref}>{business.phoneDisplay}</a>
           </div>
         </div>
