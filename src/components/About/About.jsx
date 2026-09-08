@@ -1,5 +1,5 @@
 import "./About.css";
-import aboutImage from "../../assets/images/Screenshot_20260904-124842_Messenger.webp";
+import aboutImage from "../../assets/images/turf-3.png";
 import { business } from "../../utils/constants.js";
 function About() {
   return (
