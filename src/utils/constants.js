@@ -56,14 +56,14 @@ export const serviceGroups = [
 ];
 export const galleryItems = [
   {
-    src: new URL("../assets/images/turf-and-walkway-1.png", import.meta.url)
+    src: new URL("../assets/images/turf-and-walkway-1.jpg", import.meta.url)
       .href,
     title: "Curved Turf & Walkway",
     category: "Artificial Turf",
     alt: "Curved stamped walkway surrounded by freshly installed artificial turf",
   },
   {
-    src: new URL("../assets/images/front-desert-design.png", import.meta.url)
+    src: new URL("../assets/images/front-desert-design.jpg", import.meta.url)
       .href,
     title: "Desert Front Yard",
     category: "Landscape Design",
@@ -79,19 +79,19 @@ export const galleryItems = [
     alt: "Modern home entry with rectangular concrete steps and artificial turf",
   },
   {
-    src: new URL("../assets/images/pool-side-turf-2.png", import.meta.url).href,
+    src: new URL("../assets/images/pool-side-turf-2.jpg", import.meta.url).href,
     title: "Poolside Turf",
     category: "Outdoor Living",
     alt: "Artificial turf installed around a backyard swimming pool",
   },
   {
-    src: new URL("../assets/images/step-stones-4.png", import.meta.url).href,
+    src: new URL("../assets/images/step-stones-4.jpg", import.meta.url).href,
     title: "Side Yard Refresh",
     category: "Turf & Flagstone",
     alt: "Narrow side yard upgraded with turf and large flagstone steps",
   },
   {
-    src: new URL("../assets/images/pool-side-turf-1.png", import.meta.url).href,
+    src: new URL("../assets/images/pool-side-turf-1.jpg", import.meta.url).href,
     title: "Pool & Turf Finish",
     category: "Landscape Installation",
     alt: "Finished pool area with bright artificial turf and stone walls",
@@ -106,19 +106,19 @@ export const galleryItems = [
     alt: "Front courtyard with gravel and a natural flagstone path",
   },
   {
-    src: new URL("../assets/images/turf-4.png", import.meta.url).href,
+    src: new URL("../assets/images/turf-4.jpg", import.meta.url).href,
     title: "Frontyard Lawn",
     category: "Artificial Turf",
     alt: "Large completed backyard artificial lawn beside a mature tree",
   },
   {
-    src: new URL("../assets/images/step-stones-1.png", import.meta.url).href,
+    src: new URL("../assets/images/step-stones-1.jpg", import.meta.url).href,
     title: "Step Stones in Order",
     category: "Hardscape",
     alt: "Beautiful step stones arranged in order",
   },
   {
-    src: new URL("../assets/images/step-stones-2.png", import.meta.url).href,
+    src: new URL("../assets/images/step-stones-2.jpg", import.meta.url).href,
     title: "Unordered Step Stones",
     category: "Hardscape",
     alt: "Step stones in an ordered fashion",

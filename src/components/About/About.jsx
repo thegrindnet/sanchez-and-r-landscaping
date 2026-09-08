@@ -1,5 +1,5 @@
 import "./About.css";
-import aboutImage from "../../assets/images/turf-3.png";
+import aboutImage from "../../assets/images/turf-3.jpg";
 import { business } from "../../utils/constants.js";
 function About() {
   return (
